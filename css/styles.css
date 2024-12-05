@@ -389,7 +389,7 @@
             padding: 20px 65px;
             text-align: center;
             text-decoration: none;
-            transition: all 0.35 ease;
+            transition: visibility 0.2s ease-in-out;
            }
 
            .nav li:hover a{
@@ -398,12 +398,13 @@
 
            #nav {
             /* left:0; */
+            
             background: #03262c;
             opacity: 1;
             position: absolute;
             top: 30px;
             visibility: hidden;
-            z-index: 2;
+            z-index: 0;
             text-decoration: none;
             /* right: 1px; */
            }
