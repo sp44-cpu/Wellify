@@ -233,7 +233,7 @@
            .gallery .banner_section,
            .contact .banner_section,
            .distributors .banner_section {
-               background: url('../images/banner-slide/banner-1.jpg');
+               background: url('../images/banner/banner.jpg');
                background-repeat: no-repeat;
                background-position: center;
                background-size: cover;
@@ -367,10 +367,66 @@
                transition: 0.3s ease-in-out;
            }
 
+           .nav li, nav a {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: 100%;
+            text-decoration: none;
+           }
+
+           .nav li {
+            float: left;
+            position: relative;
+            width: auto;
+            text-decoration: none;
+           }
+
+           .nav a{
+            display: block;
+            text-transform: uppercase;
+            font-family: 'Barlow Condensed', sans-serif;
+            padding: 20px 65px;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.35 ease;
+           }
+
+           .nav li:hover a{
+            background-color: red;
+           }
+
+           #nav {
+            /* left:0; */
+            background: #03262c;
+            opacity: 1;
+            position: absolute;
+            top: 30px;
+            visibility: hidden;
+            z-index: 2;
+            text-decoration: none;
+            /* right: 1px; */
+           }
+
+           li:hover ul#nav{
+            opacity: 1;
+            top: 80px;
+            visibility: visible;
+            text-decoration: none;
+            
+
+           }
+           #nav li{
+            float: none;
+            width: 100%;
+            text-decoration: none;
+           }
+
+
            /* 02 Banner Section */
 
            .banner_section {
-               background: url('../images/banner-slide/Banner-1.jpg');
+               background: url('../images/banner/banner.jpg');
                background-repeat: no-repeat;
                background-size: cover;
                background-position: center;

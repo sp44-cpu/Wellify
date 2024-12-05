@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festive Christmas Drinks & Recipes</title>
+    <link rel="stylesheet" href="drinks.css">
+    <script defer src="drinks.js"></script>
+</head>
+<body>
+    <!-- Header Banner -->
+    <header class="header">
+        <h1>🎄 Celebrate Christmas with Festive Drinks & Recipes 🎅</h1>
+        <p>Explore our exclusive range of healthy and delicious Christmas food and drinks.</p>
+    </header>
+
+    <!-- Main Section -->
+    <main class="container">
+        <!-- Featured Drinks Section -->
+        <section class="featured">
+            <h2>Featured Drink: Mulled Cranberry Cider</h2>
+            <div class="featured-content">
+                <div class="featured-text">
+                    <p>
+                        Warm up your holidays with our Mulled Cranberry Cider! This delightful blend of fresh cranberries, cinnamon, and a hint of orange zest is a crowd favorite. It's the perfect drink to keep the holiday spirit alive!
+                    </p>
+                    <button class="snow-button" data-recipe="recipe1">Get Recipe</button>
+                </div>
+                <div class="featured-image">
+                    <img src="./christmas_images/drink1.jpg" alt="Mulled Cranberry Cider">
+                </div>
+            </div>
+        </section>
+
+        <!-- Drinks Gallery -->
+        <section class="gallery">
+            <h2>Explore More Christmas Recipes</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="./christmas_images/drink2.jpg" alt="Peppermint Hot Chocolate">
+                    <h3>Peppermint Hot Chocolate</h3>
+                    <button class="snow-button" data-recipe="recipe2">View Recipe</button>
+                </div>
+                <div class="card">
+                    <img src="./christmas_images/drink5.jpg" alt="Classic Eggnog">
+                    <h3>Classic Eggnog</h3>
+                    <button class="snow-button" data-recipe="recipe3">View Recipe</button>
+                </div>
+                <div class="card">
+                    <img src="./christmas_images/drink4.jpg" alt="Zesty Cranberry Mocktail">
+                    <h3>Zesty Cranberry Mocktail</h3>
+                    <button class="snow-button" data-recipe="recipe4">View Recipe</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recipes Section -->
+        <section class="recipes hidden">
+            <h2>Recipe Details</h2>
+            <div id="recipe-content"></div>
+            <button class="close-button">Close</button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <!-- <footer class="footer">
+        <p>© 2024 Wellify | Bringing Health and Happiness this Christmas 🎄</p>
+    </footer> -->
+</body>
+</html>
